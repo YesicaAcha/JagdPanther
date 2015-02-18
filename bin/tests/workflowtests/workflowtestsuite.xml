@@ -1,0 +1,13 @@
+<suite name="JagdPantherSuite">
+ 	<listeners>
+      	<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      	<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+      	<listener class-name="framework.utils.reporter.ReportNGListener"/>
+  	</listeners>
+ 	<test name = "JagdPanther Workflow Tests">
+		<classes>
+ 			<class name="tests.editiontests.BASuiteEditionTest" />
+ 			<class name="tests.workflowtests.VerifySetGradesToApplicants" />
+ 		</classes>
+	</test>
+</suite>

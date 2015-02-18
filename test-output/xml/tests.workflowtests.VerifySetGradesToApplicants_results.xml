@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="JagdPanther Workflow Tests"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="5.358">
+  <properties />
+  
+  
+            <testcase name="verifyApplicantsGradesCanBeSet" time="5.358" classname="tests.workflowtests.VerifySetGradesToApplicants" />
+      
+</testsuite>

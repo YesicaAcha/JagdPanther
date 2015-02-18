@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [JagdPantherSuite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="framework.utils.reporter.ReportNGListener"/>
+  </listeners>
+  <test name="JagdPanther Workflow Tests(failed)">
+    <classes>
+      <class name="tests.editiontests.BASuiteEditionTest">
+        <methods>
+          <include name="quit"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- tests.editiontests.BASuiteEditionTest -->
+      <class name="tests.workflowtests.VerifySetGradesToApplicants">
+        <methods>
+          <include name="closeConnection"/>
+          <include name="verifyApplicantsGradesCanBeSet"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.workflowtests.VerifySetGradesToApplicants -->
+    </classes>
+  </test> <!-- JagdPanther Workflow Tests(failed) -->
+</suite> <!-- Failed suite [JagdPantherSuite] -->

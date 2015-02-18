@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="JagdPantherCreationTests"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="19.988">
+  <properties />
+  
+  
+            <testcase name="verifyNewUserIsCreated" time="10.052" classname="tests.creationtests.VerifyUserCreation" />
+                <testcase name="verifyNewUserIsCreated" time="9.936" classname="tests.creationtests.VerifyUserCreation" />
+      
+</testsuite>

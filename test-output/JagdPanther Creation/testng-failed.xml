@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [JagdPanther Creation]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="framework.utils.reporter.ReportNGListener"/>
+  </listeners>
+  <test name="JagdPantherCreationTests(failed)">
+    <classes>
+      <class name="tests.creationtests.VerifyUserCreation">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.creationtests.VerifyUserCreation -->
+      <class name="tests.creationtests.BASuiteCreationTest">
+        <methods>
+          <include name="quit"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- tests.creationtests.BASuiteCreationTest -->
+      <class name="tests.creationtests.VerifyProgramCreation">
+        <methods>
+          <include name="setUp"/>
+          <include name="closeConnection"/>
+        </methods>
+      </class> <!-- tests.creationtests.VerifyProgramCreation -->
+      <class name="tests.creationtests.VerifyStageCreation">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyNewStageIsCreated" invocation-numbers="0 1 2"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.creationtests.VerifyStageCreation -->
+    </classes>
+  </test> <!-- JagdPantherCreationTests(failed) -->
+</suite> <!-- Failed suite [JagdPanther Creation] -->

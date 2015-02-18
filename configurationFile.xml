@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<configuration>
+	<frameworkinformation>
+		<browser>CHROME</browser>
+		<chromedriverpath>\\lib\\chromedriver.exe</chromedriverpath>
+		<iedriverpath>\\lib\\32bits\\IEDriverServer.exe</iedriverpath>
+		<url>http://172.20.200.19:8080</url>
+		<usermail>admin@admin.com</usermail>
+		<password>admin11</password>
+		<externaldatapath>\\src\\framework\\utils\\datasource</externaldatapath>
+		<dataproviderfile>ExcelDataForDataProvider.xls</dataproviderfile>
+		<externaldatafile>ExternalData.xls</externaldatafile>
+	</frameworkinformation>
+	<dbinformation>
+		<dburl>jdbc:mysql://172.20.200.19/jagdpanther</dburl>
+		<dbuser>panther</dbuser>
+		<dbpassword>panther11</dbpassword>
+	</dbinformation>
+</configuration>

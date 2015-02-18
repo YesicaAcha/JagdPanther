@@ -1,0 +1,15 @@
+<suite name="JagdPanther Creation">
+ 	<test name = "JagdPantherCreationTests">
+		<classes>
+ 			<class name="tests.creationtests.BASuiteCreationTest" />
+ 			<class name="tests.creationtests.VerifyProgramCreation" />
+ 			<class name="tests.creationtests.VerifyStageCreation" />
+ 			<class name="tests.creationtests.VerifyUserCreation" />
+ 		</classes>
+	</test>
+	<listeners>
+      	<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      	<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+      	<listener class-name="framework.utils.reporter.ReportNGListener"/>
+  	</listeners>
+</suite>

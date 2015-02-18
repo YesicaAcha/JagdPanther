@@ -1,0 +1,13 @@
+<suite name="JagdPanther Edition">
+ 	<listeners>
+      	<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      	<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+      	<listener class-name="framework.utils.reporter.ReportNGListener"/>
+  	</listeners>
+ 	<test name = "JagdPantherEditionTests">
+		<classes>
+ 			<class name="tests.editiontests.BASuiteEditionTest" />
+ 			<class name="tests.editiontests.VerifyProgramEdition" />
+		</classes>
+	</test>
+</suite>
